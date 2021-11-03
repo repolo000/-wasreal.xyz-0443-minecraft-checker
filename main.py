@@ -44,7 +44,7 @@ def main():
         
         if not os.path.isfile('vail.txt'):
             with open('vail.txt','w') as ff:
-                ff.write(id)
+                ff.write("")
         with open('vail.txt','r') as ff:
             a=ff.read()
         
